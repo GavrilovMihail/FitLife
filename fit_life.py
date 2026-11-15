@@ -1,7 +1,4 @@
 # Проект FitLife - MVP версия 1.0
-import sys
-sys.stdout.reconfigure(encoding="utf-8")
-sys.stderr.reconfigure(encoding="utf-8")
 # Знакомлюсь с пользователем, запрашиваю базовые параметры (имя и возраст).
 # Попытку получить имя оставил как обычную строку
 # Возраст перевожу в int
