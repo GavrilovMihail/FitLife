@@ -30,7 +30,7 @@ def ast_tree(source_code):
     return ast.parse(source_code)
 
 
-@pytest.fixture
+@pytest.fixture 
 def run_program(file_path):
     def _run(user_input):
         result = subprocess.run(
